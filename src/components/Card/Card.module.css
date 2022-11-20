@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "Varsity";
+    src: local("varsity_regular"), url("../../assets/varsity_regular.ttf") format("truetype");
+    font-weight: bold;
+}
+
 .card_container {
     width: 250px;
     height: 350px;
@@ -5,6 +11,19 @@
     background: #e0e0e0;
     box-shadow: 15px 15px 30px #bebebe,
         -15px -15px 30px #ffffff;
+}
+.rank {
+    position: absolute;
+    width:70px;
+    font-family: "Varsity";
+    font-size: 4rem;
+    background: white;
+    color: black;
+    transform: rotate(-30deg);
+    border-radius: 30px;
+    top: 32%;
+    left: 34%;
+    border: 3px solid black;
 }
 .card_body {
     height: inherit;

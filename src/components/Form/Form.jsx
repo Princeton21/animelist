@@ -34,7 +34,10 @@ const Form = () => {
 				</form>
 				<p>{img}{title}</p>
 				
-				<button type="submit" onClick={handleSubmit}>submit</button>
+				<button
+					className={styles.btn}
+					type="submit"
+					onClick={handleSubmit}>submit</button>
 
       </div>
     </>
