@@ -1,3 +1,12 @@
 *{
-    overflow: hidden;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(255, 209, 230);
+        background: linear-gradient(42deg, rgba(255, 209, 230, 1) 27%, rgba(255, 255, 255, 1) 50%, rgba(153, 200, 255, 1) 100%);
+    color: #333;
+    margin: 0;
+    padding: 0;
 }
